@@ -24,7 +24,7 @@ Dimensions of the modified data set are **10.299. rows and 69 columns**.
 
 ### Variables included in the modified data set:
 
-Newly added:
+#### Newly added:
 * *dataset*:
 	+ *"training"*: records from training (train) dataset
 	+ *"test"*: records from test (test) dataset
@@ -37,7 +37,7 @@ Newly added:
 	+ *"standing"*
 	+ *"laying"*
 
-Measurements from the source data set:  
+#### Measurements from the source data set:  
 (meanings can be found on the *features_info.txt* file in the original data set)  
 (original names have been modified to remove parentheses "()" and replace hyphens ("-") by underscores ("_"))
 
