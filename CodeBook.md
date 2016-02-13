@@ -22,14 +22,14 @@ The data set provided here is a subset of the original. It joins the information
 Only the measurements on the mean (containing *mean()*) and standard deviation (containing *std()*) from the source data set are provided in the new one. Their names are also modified for clarity and standarization, removing all parentheses and hyphens.
 Dimensions of the modified data set are **10.299. rows and 69 columns**.
 
-### Variables included in the modified data set
+### Variables included in the modified data set:
 
 Newly added:
 * *dataset*: *training* or *test* datasets
 * *subject*: subject number for both training and test data sets
 * *activity*: activity label
 
-Measumentes from the source data set:
+Measurements from the source data set:
 * *tBodyAcc_mean_X*
 * *tBodyAcc_mean_Y*
 * *tBodyAcc_mean_Z*
@@ -99,8 +99,8 @@ Measumentes from the source data set:
 
 ## Modified Data set 2 (tidy_summ)
 Based on the new tidy data set, this one is a summary of it with the average of each variable for each activity and each subject (for both training and testing)
-tidy data set is grouped by activity and subject and the mean() function is applied to every other column but dataset. It has the same variable names than the previous data set.
-Dimensions of this new data set (tidy_summ) are 180 rows (30 subjects x 6 activities) and 68 columns (all columns from tidy dataset but "dataset").
+tidy data set is grouped by activity and subject and the mean() function is applied to every other column but dataset. It has the same variable names than the previous data set.  
+Dimensions of this new data set (tidy_summ) are **180 rows (30 subjects x 6 activities) and 68 columns** (all columns from tidy dataset but "dataset").
 
 
 
