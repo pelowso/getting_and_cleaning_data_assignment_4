@@ -30,12 +30,12 @@ Newly added:
 	+ *"test"*: records from test (test) dataset
 * *subject*: subject number for both training and test data sets (1:30)
 * *activity*: activity label
-	+ 1: *"walking"*
-	+ 2: *"walking_upstairs"*
-	+ 3: *"walking_downstairs"*
-	+ 4: *"sitting"*
-	+ 5: *"standing"*
-	+ 6: *"laying"*
+	+ *"walking"*
+	+ *"walking_upstairs"*
+	+ *"walking_downstairs"*
+	+ *"sitting"*
+	+ *"standing"*
+	+ *"laying"*
 
 Measurements from the source data set:
 * *tBodyAcc_mean_X*
