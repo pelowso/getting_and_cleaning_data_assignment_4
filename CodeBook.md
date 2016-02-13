@@ -25,15 +25,17 @@ Dimensions of the modified data set are **10.299. rows and 69 columns**.
 ### Variables included in the modified data set:
 
 Newly added:
-* *dataset*: *training* or *test* datasets
-* *subject*: subject number for both training and test data sets
+* *dataset*:
+	+ *training*: records from training (train) dataset
+	+ *test*: records from test (test) dataset
+* *subject*: subject number for both training and test data sets (1:30)
 * *activity*: activity label
-	+ 1: WALKING
-	+ 2: WALKING_UPSTAIRS
-	+ 3: WALKING_DOWNSTAIRS
-	+ 4: SITTING
-	+ 5: STANDING
-	+ 6: LAYING
+	+ 1: walking
+	+ 2: walking_upstairs
+	+ 3: walking_downstairs
+	+ 4: sitting
+	+ 5: standing
+	+ 6: laying
 
 Measurements from the source data set:
 * *tBodyAcc_mean_X*
