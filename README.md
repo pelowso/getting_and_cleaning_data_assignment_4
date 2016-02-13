@@ -8,11 +8,11 @@
 
 ## How the script works (run_analysis.R)
 1. Download and extract dataset from URL
-	* variables: url
+	* variables: *url*
 2. Read features names that are common to training and test datasets
-	* variables: feature_names, features
+	* variables: *feature_names, features*
 3. Read activities labels that are common to training and test datasets and convert them to lowercase for clarity
-	* variables: activity_names, activities
+	* variables: *activity_names, activities*
 4. Create training dataset
 	+ Read data, activity and subject records
 	+ Set feature names to columns of data table
@@ -20,7 +20,7 @@
 	+ Remove duplicated columns from data table
 	+ Bind data, activity and subject tables by column
 	+ Add dataset information to dataset column
-	* variables: train_file, train_act_file, train_subject_file, train, train_activity, train_subjects, features
+	* variables: *train_file, train_act_file, train_subject_file, train, train_activity, train_subjects, features*
 5. Create test dataset
 	+ Read data, activity and subject records
 	+ Set feature names to columns of data table
@@ -28,17 +28,17 @@
 	+ Remove duplicated columns from data table
 	+ Bind data, activity and subject tables by column
 	+ Add dataset information to dataset column
-	* variables: test_file, test_act_file, test_subject_file, test, test_activity, test_subjects
+	* variables: *test_file, test_act_file, test_subject_file, test, test_activity, test_subjects*
 6. Create merged table from training and test by binding rows
-	* variables: tidy, train, test
+	* variables: *tidy, train, test*
 7. Select informational columns and all data columns with mean and sd values
-	* variables: tidy
+	* variables: *tidy*
 8. Replace activity codes with descriptive names
-	* variables: tidy, activities
+	* variables: *tidy, activities*
 9. Replace column names with proper and descriptive variables names
-	* variables: proper_column_names, tidy
+	* variables: *proper_column_names, tidy*
 10. Create another dataset with the average of each variable for each activity and each subject (for both training and testing)
-	* variables: tidy, tidy_summ
+	* variables: *tidy, tidy_summ*
 
 
 
