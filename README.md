@@ -8,7 +8,8 @@
 
 ## How the script works (run_analysis.R)
 The script has some comments explaining how each part of the code works.  
-This is a general description of what it does:  
+This is a general description of what it does:
+
 1. Download and extract dataset from URL
 	* variables: *url*
 2. Read features names that are common to training and test datasets
