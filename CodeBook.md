@@ -110,7 +110,7 @@ Dimensions of the modified data set are **10.299. rows and 69 columns**.
 
 ## Modified Data set 2 (tidy_summ)
 Based on the new tidy data set, this one is a summary of it with the average of each variable for each activity and each subject (for both training and testing).
-tidy data set is grouped by activity and subject and the mean() function is applied to every other column but dataset.  
+All measurements from the previous data set (tidy) are grouped by activity and subject and the mean() function is applied to every other column but dataset.  
 **It has the same variable names than the previous data set.**    
 Dimensions of this new data set (tidy_summ) are **180 rows (30 subjects x 6 activities) and 68 columns** (all columns from tidy dataset but "dataset").
 
