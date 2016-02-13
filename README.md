@@ -1,12 +1,14 @@
 # PROCESSING A DATA SET FOR LATER ANALYSIS
 
 ## Files
-* **README.md**: this file, which explains the purpose of the different files
-* **CodeBook.md**: Describes the variables and the data transformations used in the script 
+* **README.md**: this file, which explains the purpose of the different files and how the script works
+* **CodeBook.md**: Describes the data set, its variables and the data transformations applied to it
 * **run_analysis.R**: The script that contains all the R code for downloading and processing the source data set to obtain the new one
 * **tidy_summary.txt**: Output data set exported as a text table
 
 ## How the script works (run_analysis.R)
+The script has some comments explaining how each part of the code works.  
+This is a general description of what it does:  
 1. Download and extract dataset from URL
 	* variables: *url*
 2. Read features names that are common to training and test datasets
