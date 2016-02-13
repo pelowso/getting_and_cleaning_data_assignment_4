@@ -1,10 +1,10 @@
 # PROCESSING A DATA SET FOR LATER ANALYSIS
 
 ## Files
-* **bold**README.md**bold**: this file, which explains the purpose of the different files
-* CodeBook.R: Describes the variables and the data transformations used in the script 
-* run_analysis.R: The script that contains all the R code for downloading and processing the source data set to obtain the new one
-* tidy_summary.txt: Output data set exported as a text table
+* **README.md**: this file, which explains the purpose of the different files
+* **CodeBook.R**: Describes the variables and the data transformations used in the script 
+* **run_analysis.R**: The script that contains all the R code for downloading and processing the source data set to obtain the new one
+* **tidy_summary.txt**: Output data set exported as a text table
 
 ## How the script works (run_analysis.R)
 1. Download and extract dataset from URL
