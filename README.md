@@ -7,10 +7,10 @@
 * **tidy_summary.txt**: Output data set exported as a text table
 
 ## How the script works (run_analysis.R)
-The script has some comments explaining how each part of the code works.  
+The script has some inside comments explaining how each part of the code works.  
 This is a general description of what it does:
 
-1. Download and extract dataset from URL
+1. Download and extract source data set from URL
 	* variables: *url*
 2. Read features names that are common to training and test datasets
 	* variables: *feature_names, features*
