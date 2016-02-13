@@ -18,15 +18,17 @@ For each record it is provided:
 Further information about the variables (features) of this data set can be obtained from the project web page and the data set itself.
 
 ## Modified Data set 1 (tidy)
-The data set provided here is a subset of the original. It joins the information from training and test data sets into one, indicating its source through a newly added column (dataset). It also joins information from the subject and activity (columns "subject" and "activity") that are related to each record, so all information is available in a single table (tidy). In the original data set activities are coded using 6 numbers and their labels are provided in a different file. In the modified data set these numbers are replaced by their labels in lowercase. The original data set has some duplicated columns which are removed in the modified data set. The joined source data set has 10.299 rows and 480 columns after adding the 3 columns (dataset, activity and subject) and removing duplicates.
-Only the measurements on the mean (containing "mean()") and standard deviation (containing std()) from the source data set are provided in the new one. Their names are also modified for clarity and standarization, removing all parentheses and hyphens.
-Dimensions of the modified data set are 10.299. rows and 69 columns.
+The data set provided here is a subset of the original. It joins the information from training and test data sets into one, indicating its source in a newly added column (dataset). It also joins information from the subject and activity (columns "subject" and "activity") that are related to each record, so all information is available in a single table (tidy). In the original data set the activities are coded using 6 numbers and their labels are provided in a different file. In the modified data set these numbers are replaced by their labels in lowercase. The original data set has some duplicated columns which are removed in the modified data set. The joined source data set has **10.299 rows and 480 columns** after adding the 3 new columns (*dataset, activity and subject*) and removing duplicates.
+Only the measurements on the mean (containing *mean()*) and standard deviation (containing *std()*) from the source data set are provided in the new one. Their names are also modified for clarity and standarization, removing all parentheses and hyphens.
+Dimensions of the modified data set are **10.299. rows and 69 columns**.
 
 The list of variables included in the modified data set are:
+
 Newly added:
 * "dataset": "training" or "test" datasets
 * "subject": subject number for both training and test data sets
 * "activity": activity label
+
 Measumentes from the source data set:
 * "tBodyAcc_mean_X"
 * "tBodyAcc_mean_Y"
