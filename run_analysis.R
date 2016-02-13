@@ -77,6 +77,7 @@ tidy_summ <- tidy %>% group_by(subject, activity) %>%
         summarize_each(funs(mean), -dataset) %>%
         arrange(desc(subject))
 write.table(tidy_summ, "./assignment4/tidy_summary.txt", row.names = FALSE)
+print(tidy_summ)
 
 
 
