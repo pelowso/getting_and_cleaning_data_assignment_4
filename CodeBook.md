@@ -37,7 +37,10 @@ Newly added:
 	+ *"standing"*
 	+ *"laying"*
 
-Measurements from the source data set:
+Measurements from the source data set:  
+(meanings can be found on the *features_info.txt* file in the original data set)
+(original names have been modified to remove parentheses "()" and replace hyphens ("-") by underscores ("_"))
+
 * *tBodyAcc_mean_X*
 * *tBodyAcc_mean_Y*
 * *tBodyAcc_mean_Z*
